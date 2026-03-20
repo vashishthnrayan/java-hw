@@ -40,7 +40,7 @@ class UpiPayment extends Payment{
     }
 }
 
-class CashPayment extends Payment{
+class CashPayment extends Payment{      
     
     public CashPayment(double amount){
         super(amount);
